@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+}
+header {
+    position: relative;
+    height: 45vh;
+    border-bottom: 7px solid #fffcfcf3;
+    text-align: center;
+}
+header h1 {
+    text-align: center;
+    font-size:2em;
+    padding-top: 23px;
+}
+.Class_Btn{
+    display: flex;
+    justify-content:space-around;
+    margin: 5em;
+}
+.btn{
+    padding: 0.8em 8% 0.8em 8%;
+    margin: 0em;
+    font-size: 1.7em;
+    background-color: rgba(0, 0, 0, 0.073);
+    border: none;
+    border-radius: 10%;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #eee;
+}
+.btn:hover{
+    cursor: pointer;
+    color: #111; 
+    background: rgb(100, 216, 255); 
+    box-shadow: 0 0 100px rgb(100, 216, 255);
+    
+}
+.number{
+    font-size: 4em;
+    color: #111;
+    text-align: center;
+    margin-top: .8em;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.nm{
+    font-size: 4em;
+    color: #111;
+    text-align: center;
+    margin-top: .8em;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.backdrop{
+    margin: 0;
+    height: 1.7em;
+    width: auto;
+    border: none;
+    border-radius: 15%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 100px rgb(100, 216, 255);
+}
+main{
+    display: flex;
+    justify-content: space-around;
+
+}
+body{
+    background-image: url("Resources/Gif_4k.gif");
+    background-size:cover; 
+    background-color: rgba(0, 0, 0, 0.513);
+    background-position:center;
+    font-family: 'Press Start 2P', sans-serif;
+    background-blend-mode: multiply;
+    color: #eee;
+}
+.left {
+
+    margin: 1px;
+    margin-top: 6em;
+    margin-left: 1em;
+}
+.guess{
+    padding: 1.1em 1% 1.1em 3%;
+    width: 100px;
+    height: 20px;
+    margin-left: .6em;
+    font-size: 2em;   
+    font-family: 'Press Start 2P', sans-serif;
+    border: none;
+    border-radius: 12%;
+    color: #ffffff; 
+    background: rgba(100, 216, 255, 0.564); 
+    box-shadow: 0 0 100px rgb(100, 216, 255);
+    
+}
+.guess:hover{
+    cursor: pointer;
+    
+}
+.check{
+    margin-top:1.5em;
+    font-size: 1.3em;
+
+}
+.right{
+    margin: 0px;
+    margin-top: 5em;
+    
+}
+.txt_t{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    margin-right: 0.5px;
+}
+.highscore{
+    font-size: 1em;
+    color: rgb(100, 216, 255);
+}
+
+.message{
+    margin-top: 10%;
+    margin-bottom: 2em;
+}
+.one_logo{
+    height: 35px;
+    width: 35px;
+    margin: 15px;
+}
+.two_logo{
+    height: 30px;
+    width: 30px;
+    margin: 15px;
+    margin-bottom: 18px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: .5em;
+}
+.logo_c:hover{
+    cursor: pointer;
+    color: #ffffff; 
+    box-shadow: 0 0 100px rgb(25, 217, 255);
+    
+}
+.btn_unf{
+    margin: 1em;
+}
+.label-highscore , .label-score {
+    font-size: 0.8em;
+}

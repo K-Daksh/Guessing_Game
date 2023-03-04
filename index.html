@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link type="image/png" rel="icon" href="Resources/favicon.ico">
+    <title>Guess It | Home</title>
+  </head>
+  <body style="background-color: rgba(0, 0, 0, 0.513)">
+    <header>
+      <h1 >Guess the number</h1>
+        <span class="Class_Btn">
+            <a href="help.html">
+                <button role="button" class="btn help btn_unf">Help</button>
+            </a>
+            <a>
+                <button role="button" class="btn again btn_unf" >Reset</button>
+            </a>
+            
+        </span>
+        <div>
+            <button class="number backdrop" style="width: 150px;" role="none"></button>
+            <span class="nm">?</span> 
+        </div>
+    </header>
+    <main>
+      <section class="left">
+        <div>
+            <input type="number" class="guess" max="20" min="0"/>
+            <button class="btn check">Check</button>
+        </div>
+      </section>
+      <section class="right">
+        <p class="message txt_t" style="color: white" >Start guessing..</p>
+        <p class="label-score txt_t">Score: <span class="score">20</span></p>
+        <p class="label-highscore txt_t">
+          Highscore: <span class="highscore txt_t">0</span>
+        </p>
+      </section>
+    </main>
+    <footer>
+        <div>
+            <span class="footer_two">
+                <a href="https://github.com/K-Daksh" target="_blank" ><img class="logo_c one_logo"  src="Resources/GHB_LOGO_2.png"></a>
+                <a href="https://www.linkedin.com/in/daksh-kitukale-824843235/" target="_blank" ><img class="logo_c two_logo"  src="Resources/LDIN_LOGO.png"></a>
+            </span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
